@@ -1,11 +1,22 @@
 git config --global user.email "sk862147@gmail.com"
-git config --global user.name "Samar Khan"
+git config --global user.name "Samar Khan" (kaun kaaam kr rha hai us command line interface par...)
 
 1) git init (Ye use hota hai git project bnane ke liye...)
-2) git add -A
-3) git status
-4) git commit -m "any message"
-5) git remote add origin RepoName eg: "https://github.com/smrkhan123/LearnGitHub.git"
+2) git add -A (ye files ko add krta hai git pr...)
+3) git status (ye status btata hai ki kaun kaun se file upload nhi huye hain git par)
+4) git commit -m "any message" (commit ka matlab snapshot hota hai, ye basically ek backup ke liye kiya jata hai ki baad me agar koi error aaye to usko use kr skte hain...)
+5) git remote add origin RepoName eg:  
 6) git push origin master
 7) git clone reponame
 8)git pull origin master
+9) ls :mtlab list of item
+
+branches kya hota hai github me??
+
+suppose koi ek project hai usko do log milkar develop kiye hn... aur kucch samay baad us particular project me koi changing aaye to us project ko bina kuchh effect pahuchaye hum log do dublicate copy bna lenge(clone kehte hn) aur uske baad usko baat dete hn dono logo me aur jo change hona hai usko change krke dono copied project ko merge kerdete hn original prjct me.
+
+for branch:
+git branch
+1) branch bnane k liye: git branch branch_name
+2) ek branch se dusre branch me switch karne ke liye: git checkout branch_name
+3) 
