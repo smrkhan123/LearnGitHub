@@ -1,0 +1,11 @@
+git config --global user.email "sk862147@gmail.com"
+git config --global user.name "Samar Khan"
+
+1) git init (Ye use hota hai git project bnane ke liye...)
+2) git add -A
+3) git status
+4) git commit -m "any message"
+5) git remote add origin RepoName eg: "https://github.com/smrkhan123/LearnGitHub.git"
+6) git push origin master
+7) git clone reponame
+8)git pull origin master
